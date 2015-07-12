@@ -1,0 +1,28 @@
+{
+  "name": "showdown-client",
+  "version": "0.1.0",
+  "description": "Client for Pokemon Showdown",
+  "main": "dist/index.js",
+  "author": "Konrad Borowski <x.fix@o2.pl>",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-promise": "^0.3.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-run": "^1.6.8",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-spawn-mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.6.18",
+    "request-promise": "^0.4.2",
+    "websocket": "^1.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xfix/showdown-client.git"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
+}
